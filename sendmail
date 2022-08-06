@@ -1,0 +1,6 @@
+function sendEmail() {
+    var name = document.getElementById("name").value
+    var email = document.getElementById("email").value
+    var mail = "example@aztek.net"
+    window.open(`mailto:${mail}?subject=De ${name} (${email}) via le site web.&body=NewsLetter`)
+}
